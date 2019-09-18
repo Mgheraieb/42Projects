@@ -1,0 +1,2 @@
+kill %1
+#la cmd jobs permet de voir tout les process en background
