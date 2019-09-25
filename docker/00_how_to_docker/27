@@ -1,0 +1,1 @@
+docker service logs -f 4d47gqz1b50c

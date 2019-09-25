@@ -1,0 +1,7 @@
+
+with Char
+docker swarm join-token worker
+
+with Aiur
+eval $(docker-machine env Aiur)
+docker swarm join --token ....
