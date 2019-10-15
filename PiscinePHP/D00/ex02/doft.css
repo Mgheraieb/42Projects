@@ -1,0 +1,83 @@
+
+#navi, #cluster, #divHead, #right{
+    background-color: #909090;
+}
+
+#divHead{
+    position: absolute;
+    top :2%;
+    right: 2%;
+    left: 2%;
+    border-color: rgba(0,0,0,0.7);
+    border-bottom-width: 20px;
+    border-bottom-style: groove;
+    border-right-style: groove;
+    border-right-width: 10px;
+    border-radius: 28px;
+
+}
+#imgDoft{
+
+    width: 40%;
+    position: relative;
+    left: 2%;
+}
+#imgReload{
+    position: absolute;
+    width: 2%;
+    right: 1%;
+    top: 6%;
+}
+#imgClose{
+    position: absolute;
+    bottom: 3%;
+    right: 1%;
+    width: 2%;
+}
+#imgLoupe{
+    position: absolute;
+    right: 3%;
+    top :15%;
+}
+#bodi{
+    position: absolute;
+    top : 25%;
+    left:4%;
+    right: 4%;
+    display: flex;
+    flex-direction: row;
+}
+
+#navi img, #right img{
+    width: 100px;
+    position: relative;
+    right:15%;
+}
+
+#cluster{
+    height: 140%;
+    width: 120%;
+}
+/*
+#cluster img{
+    position: relative;
+    left: 15px;
+    top : 15px;
+    width: 96%;
+    height: 96%;
+}*/
+#navi, #cluster, #right{
+    margin-right:20px;
+    border-color: rgba(0,0,0,0.7);
+    border-bottom-width: 20px;
+    border-bottom-style: groove;
+    border-right-style: groove;
+    border-right-width: 10px;
+    border-radius: 28px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
