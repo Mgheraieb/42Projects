@@ -1,0 +1,30 @@
+-------------------------------- Etapes a suivre si probleme avec RUN.sh
+
+docker-machine remove $nom_du_serveur
+
+** Installer docker-machine et docker-compose avec Brew (et VirtualBox si necessaire)
+
+** Tapez les commandes suivantes:
+docker-machine create server
+docker-machine start server
+eval "$(docker-machine env server)"
+docker-compose up -d
+docker-machine ps
+
+
+-------------------------------- Etapes a suivre apres RUN.sh
+
+** Modifier "rush00_www_1" si necessaire en comparant au nom du container afficher avec la commande precedente.
+docker exec -it rush00_www_1 /bin/bash
+
+** Une fois connecter a la VM tapez les commandes:
+cd ../..
+chmod 777 html/*
+exit
+
+** Pour acceder au site depuis le navigateur:
+docker-machine ip server
+http://{ip-server}:8080
+
+** L'acces au panel admin:
+http://{ip-server}:8080/admin/admin.php // admin:admin
